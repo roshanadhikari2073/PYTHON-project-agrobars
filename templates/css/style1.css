@@ -1,0 +1,121 @@
+.logo {
+  width: 90px;
+  margin-right: 25px;
+  border-radius:0px;
+
+
+}
+.nav-link {
+  margin-left: 45px !important;
+  font-size: 30px;
+  font-family: Helvetica, sans-serif
+}
+
+a.nav-link:hover {
+    font-weight: bold;
+    background: gold;
+    cursor: pointer;
+}
+
+
+.navbar {
+  width: 100% !important;
+  height: 100px;
+  border-radius: 10px;
+  background-color: blue;
+  z-index: 1;
+  margin-bottom: 12px;
+  position: absolute;
+}
+
+
+
+.btn {
+  width: 100px;
+  border-radius: 50px;
+  height: 30px;
+  margin-bottom: 10px;
+  color: red;
+}
+
+.btn:hover {
+    font-weight: bold;
+    background: gold;
+    cursor: pointer;
+}
+
+
+.carousel-item {
+  height: 1000px;
+
+}
+
+/*About*/
+#about {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap; }
+
+
+.about-image {
+  height: 200px; }
+  .about-image img {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 100px;
+  }
+
+.about-content {
+  width: 50%; }
+  .about-content h1 {
+    margin: 60px 0;
+    font-size: 48px; }
+  .about-content p {
+    padding: 15px;
+    font-size: 14px;
+    line-height: 2;
+    text-align: justify; }
+  .about-content button {
+    height: 50px;
+    width: 200px;
+    border: 1px solid #ef3f3f;
+    color: #ef3f3f;
+    background: transparent;
+    font-size: 16px;
+    transition: all ease-in-out 0.3s; }
+    .about-content button:hover {
+      background: #ef3f3f;
+      color: #fff;
+      cursor: pointer; }
+
+
+
+
+/*login reg*/
+#login .container #login-row #login-column #login-box {
+  margin-top: 120px;
+  max-width: 600px;
+  height: 320px;
+  border: 1px solid #9C9C9C;
+  background-color: #EAEAEA;
+}
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+#login .container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -85px;
+}
+
+/*form*/
+/*.form {
+  margin-top: 120px;
+  max-width: 600px;
+  height: 320px;
+  border: 1px solid #9C9C9C;
+  background-color: #EAEAEA;
+}
+*/
+
+.page-footer {
+  background-color: black; 
+}
